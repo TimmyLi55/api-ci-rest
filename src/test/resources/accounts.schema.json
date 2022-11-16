@@ -6,7 +6,7 @@
     "type": "object",
     "additionalProperties": false,
     "required": [
-      "idd",
+      "id",
       "name",
       "number",
       "balance",
@@ -14,7 +14,7 @@
     ],
     "properties": {
       "id": {
-        "type": "integer"
+        "type": "string"
       },
       "name": {
         "type": "string",
